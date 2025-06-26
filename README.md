@@ -55,6 +55,7 @@ Neste minicurso, vamos usar ferramentas simples e modernas (como o DuckDB) para 
 
 1. Acesse o repositório original [`s-fontes/minicurso_ciencia_de_dados`](https://github.com/s-fontes/minicurso_ciencia_de_dados).
 2. Clique no botão **Fork** no canto superior direito e selecione sua conta.
+3. Clique no botão **Create Fork**
 
 ### 2. Clone seu fork (opcional para uso local)
 
