@@ -27,6 +27,9 @@ class DatabaseConnection:
                 logger.debug(
                     f"Configuration settings applied:\n{self.CONFIG.strip()}"
                 )
+                logger.debug(
+                    query
+                )
                 logger.info("Executing query...")
                 result = conn.execute(query).df()
                 logger.info("Query executed successfully")
