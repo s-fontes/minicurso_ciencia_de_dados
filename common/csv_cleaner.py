@@ -15,7 +15,7 @@ PATTERNS = [
     (re.compile(r'(\")(\d+),(\d+)(\")'), r'\1\2.\3\4'),
     # Decimals like ",12" → "0.12"
     (re.compile(r'(\"),(\d+)(\")'), r'\g<1>0.\2\3'),
-    # / -> ''
+    # Remove forward slashes and backslashes
     (re.compile(r'([\/])'), '')
 ]
 
