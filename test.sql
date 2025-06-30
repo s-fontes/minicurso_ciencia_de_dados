@@ -1,0 +1,1 @@
+SELECT * FROM pessoas LIMIT 3;
